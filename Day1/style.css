@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.google.com/specimen/Rubik);
+
+body {
+  background-color: hsl(240, 33%, 1%);
+  color: white;
+  padding: 10rem;
+}
+
+main {
+  display: flex;
+  place-content: center;
+  gap: 3rem;
+}
+/*First section*/
+
+.users-corner {
+  /* margin: 5px; */
+  border-radius: 5px;
+  padding: 1rem;
+  width: 250px;
+  height: 500px;
+}
+
+.info {
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: 2rem;
+  padding-bottom: 3rem;
+  gap: 1rem;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 5px;
+  align-content: flex-start;
+}
+
+.info img {
+  object-fit: cover;
+  padding: 1rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.username {
+  justify-content: center;
+  padding-right: 1rem;
+}
+.username h3 {
+  font-family: "Rubik";
+  font-size: 30px;
+}
+
+.time {
+  background-color: hsl(226, 43%, 10%);
+  border-radius: 5px;
+  padding: 1rem;
+  padding-top: 1rem;
+}
+
+/*Second section*/
+
+.user-details {
+  margin: 5px;
+  padding: 1rem;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.user-details img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.boxes {
+  background-color: hsl(226, 43%, 10%);
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+/*general top of all the boxes*/
+
+.top {
+  border-radius: 5px;
+  height: 100px;
+}
+
+.column-one {
+  display: flex;
+  place-content: center;
+  gap: 2rem;
+}
+
+/*work box*/
+
+.top.one {
+  background-color: hsl(15, 100%, 70%);
+  position: relative;
+}
+.top img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 200px;
+  z-index: 2;
+}
+/* play box*/
+.top.two {
+  background-color: hsl(195, 74%, 62%);
+  position: relative;
+}
+
+/*study box*/
+.top.three {
+  background-color: hsl(348, 100%, 68%);
+  position: relative;
+}
+
+/*third section*/
+
+.column-two {
+  display: flex;
+  place-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+/*exercise box*/
+.top.four {
+  background-color: hsl(145, 58%, 55%);
+  position: relative;
+}
+
+/*social box*/
+.top.five {
+  background-color: hsl(264, 64%, 52%);
+  position: relative;
+}
+
+/*selfcare box*/
+.top.six {
+  background-color: hsl(264, 64%, 52%);
+  position: relative;
+}
+
+/*contents of users details*/
+.first.line {
+  display: flex;
+  justify-content: space-between;
+}
+.first.line img {
+  padding-right: 1rem;
+
+  object-fit: contain;
+}
+.second.line h3,
+p {
+  padding: 10px;
+}
+
+.second.line h3 {
+  font-family: "Rubik";
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .column-one {
+    display: block;
+  }
+  .column-two {
+    display: block;
+  }
+  main {
+    display: block;
+    gap: 2rem;
+  }
+  .top {
+    border-radius: 5px;
+    height: 100px;
+  }
+  .second.line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.boxes {
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+
+/* ## Colors 
+
+### Primary
+
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px (card titles e.g. Work, Play)
+
+### Font
+
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 300, 400, 500
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+*/
