@@ -1,8 +1,16 @@
-let count= 0
+// document.getElementById("count-el").innerText = 5
 
-document.getElementById('increment-btn').addEventListener('click',function increment() {
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+
+
+
+let count = 0
+
+function increment() {
+    countEl.innerText = count
     count = count + 1 
-    console.log(count)
-    document.getElementById('count').textContent=count
-})
+   
+}
 increment()
+ 
