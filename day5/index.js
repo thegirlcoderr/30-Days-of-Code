@@ -5,7 +5,6 @@
 let Error = document.getElementById("error")
 
 function purchase() {
-   
-    Error.textcontent= "Opps"+ "Something went wrong, please try again"
+   console.log("clicked");
+    Error.innerHTML = "Opps!" + " "+"Something went wrong, please try again"
 }
- purchase()
