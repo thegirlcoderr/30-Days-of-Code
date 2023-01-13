@@ -1,5 +1,5 @@
 # Passenger Counting App
-This challenge solidified my understanding of Javascript function and Dom
+This challenge tested my understanding of Javascript function, SCripts, Variables,Strings,The Dom and hooking Eventlistener
 
 
 ## Table of contents
