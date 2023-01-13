@@ -7,6 +7,9 @@ body {
   text-align: center;
 }
 
+.main {
+  max-width: 350px;
+}
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
