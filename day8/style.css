@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(24, 24, 67);
+}
+
+main {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 800px;
+  height: 600px;
+}
+
+h2 {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+
+  font-size: 2em;
+  border: 3px solid white;
+  border-radius: 10px;
+
+  color: var(--text-color2);
+  background-color: transparent;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: var(--background-color1);
+  border: 7px solid white;
+  outline: 10px solid var(--background-color1);
+}
