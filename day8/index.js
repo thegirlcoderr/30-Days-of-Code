@@ -1,12 +1,13 @@
 let displayscoreHome = document.getElementById("displayscore-home")
-homescore = 0
+let homescore = 0
 let displayscoreGuest = document.getElementById("displayscore-guest")
 
 function addhomescoreone() {
+     console.log("clicked")
     homescore = homescore + 1
  displayscoreHOME.textcontent= homescore 
 }
-function addhomescorettwo(){
+function addhomescoretwo(){
   homescore = homescore + 2
  displayscoreHOME.textcontent= homescore 
 }

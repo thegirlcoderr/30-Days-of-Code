@@ -4,32 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basketball Scoreboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Document</title>
   </head>
   <body>
-    <main>
-      <div>
-        <h2>Home</h2>
-        <div class="scoreboard">
-          <p id="displayscore-home">0</p>
-        </div >
-
-        <div class="buttons">
-        <button id="homescore-btn1" onclick=" addhomescoreone()">+1</button>
-        <button id="homescore-btn2" onclick=" addhomescoretwo()">+2</button>
-        <button id="homescore-btn3" onclick=" addhomescorethree()">+3</button>
-      </div>
-      <div>
-        <h2>Guest</h2>
-        <div class="scoreboard">
-          <p id="displayscore-guest">0</p>
+    <div class="container">
+      <div class="guest">
+        <div class="guestcontent">
+          <h1>Home</h1>
+          <p id="h-scoreboard">0</p>
+          <div>
+            <!-- create three buttons -->
+            <button onclick="{}" class="" id="btn-h-one" class="btn">+1</button>
+            <button class="" id="btn-h-two" class="btn">+2</button>
+            <button class="" id="btn-h-three" class="btn">+3</button>
+          </div>
         </div>
-
-        <button id="guestscore-btn1" onclick="addguestscore1">+1</button>
-        <button id="guestscore-btn2" onclick="addguestscore1">+2</button>
-        <button id="guestscore-btn" onclick="addguestscore1">+3</button>
       </div>
-    </main>
+      <div class="home">
+        <div class="guestcontent">
+          <h1>Guest</h1>
+          <p id="g-scoreboard">0</p>
+          <div>
+            <!-- create three buttons -->
+            <button class="" id="btn-g-one" class="btn">+1</button>
+            <button class="" id="btn-g-two" class="btn">+2</button>
+            <button class="" id="btn-g-three" class="btn">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

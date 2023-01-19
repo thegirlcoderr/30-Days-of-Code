@@ -1,53 +1,80 @@
-* {
-  margin: 0;
-}
+/* import DigogDisplay font in the font face */
 
+@font-face {
+  font-family: "Digital Display";
+  src: url("/assets/DigitalDisplay.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --background-color: rgb(5, 5, 5);
+  --background-color1: rgb(6, 42, 139);
+  --text-color1: rgb(255, 217, 0);
+  --text-color2: rgb(255, 255, 255);
+}
 body {
-  background-color: rgb(24, 24, 67);
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main {
+.container {
   position: absolute;
   top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 8rem;
   justify-content: center;
   align-items: center;
-
   width: 800px;
   height: 600px;
+  background-color: rgb(6, 6, 124);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+  border-width: 5px;
 }
-
-h2 {
+.guest {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.home {
+  display: flex;
+  flex-direction: column;
   color: white;
 }
 
-button {
-  cursor: pointer;
-  width: 80px;
-  height: 80px;
-
-  font-size: 2em;
-  border: 3px solid white;
-  border-radius: 10px;
-
-  color: var(--text-color2);
-  background-color: transparent;
+h1 {
+  font-size: 3rem;
+  color: var(--text-color1);
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.scoreboard {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+p {
+  font-size: 1.5rem;
+  color: var(--text-color2);
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: xx-large;
+  font-family: "DigogDisplay";
+}
 
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
+button {
+  font-size: 1.5rem;
+  color: var(--text-color2);
   background-color: var(--background-color1);
-  border: 7px solid white;
-  outline: 10px solid var(--background-color1);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
