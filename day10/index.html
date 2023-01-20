@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="guest">
+        <div class="guestcontent">
+          <h1>Home</h1>
+          <p id="homescoreboard">0</p>
+          <div>
+            <!-- create three buttons -->
+            <button onclick="updateHomeScore(homeScoreboard, 1)">+1</button>
+            <button onclick="updateHomeScore(homeScoreboard, 2)">+2</button>
+            <button onclick="updateHomeScore(homeScoreboard, 3)">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="home">
+        <div class="guestcontent">
+          <h1>Guest</h1>
+          <p id="guestscoreboard">0</p>
+          <div>
+            <!-- create three buttons -->
+            <button onclick="updateGuestScore(guestScoreboard, 1)">+1</button>
+            <button onclick="updateGuestScore(guestScoreboard, 2)">+2</button>
+            <button onclick="updateGuestScore(guestScoreboard, 3)">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
