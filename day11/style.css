@@ -9,3 +9,33 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #000;
+  color: #999;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem, 0;
+}
+
+img {
+  width: 100%;
+}
