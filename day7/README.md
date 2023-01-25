@@ -34,7 +34,7 @@
 
 
 ### Acknowledgment
-- ![Scrimba](https://scrimba.com/)
+- [Scrimba](https://scrimba.com/)
 
 
 ## Author
