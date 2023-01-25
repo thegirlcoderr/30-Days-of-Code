@@ -103,6 +103,7 @@ img {
   margin: 0 0 2rem;
   color: white;
 }
+
 /*buttons*/
 .btn {
   background: var(--primary-color);
@@ -132,6 +133,15 @@ img {
   text-transform: uppercase;
 }
 
+/*container*/
+
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
 /*tabs*/
 
 .tabs {
@@ -146,6 +156,22 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   align-content: center;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+  padding: 1.5rem 0;
+}
+.tabs .container > div:hover {
+  color: white;
+  cursor: pointer;
+}
+.tabs-border {
+  border-bottom: 3px solid var(--primary-color);
 }
