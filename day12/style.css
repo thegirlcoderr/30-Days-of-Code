@@ -131,3 +131,21 @@ img {
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
+
+/*tabs*/
+
+.tabs {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+  border-right: none;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
