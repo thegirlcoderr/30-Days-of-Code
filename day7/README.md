@@ -1,4 +1,5 @@
 # Emoji Fighter
+* This is a solution to Scrimba's Emoji fighter task
 
 ## Table of contents
 
@@ -13,14 +14,13 @@
 ## Overview
 
 ### The challenge
-* When the user clicks on the "Pick Fighters" button, pick two random 
-* Emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" 
+* When the user clicks on the "Pick Fighters" button, you should be able to pick two random Emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" 
 
 
 ### Links
 
 
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://pick-your-emoji-fighter.netlify.app/)
 
 ### Built with
 
