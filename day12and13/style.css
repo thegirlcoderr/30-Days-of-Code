@@ -201,6 +201,7 @@ img {
   color: white;
 }
 
+/*tab-1*/
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -208,6 +209,8 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/*tab-2*/
 #tab-2-content .tab-2-content-top {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -223,4 +226,30 @@ img {
   justify-content: center;
   text-align: center;
   margin-top: 3rem;
+}
+
+/*tables*/
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+table tbody tr td:first-child {
+  text-align: center;
+}
+.table tbody tr:nth-child(odd) {
+  background: #222;
 }
