@@ -253,3 +253,33 @@ table tbody tr td:first-child {
 .table tbody tr:nth-child(odd) {
   background: #222;
 }
+.footer {
+  max-width: 70%;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+.footer,
+.footer a {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
+@media (max-width: 960px) {
+  .showcase {
+    height: 70;
+  }
+}
