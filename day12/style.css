@@ -191,6 +191,11 @@ img {
 }
 
 /*tabs content*/
+.tabs-content {
+  padding: 3rem;
+  background-color: black;
+  color: white;
+}
 
 #tab-1-content .tab-1-content-inner {
   display: grid;
@@ -198,4 +203,11 @@ img {
   grid-gap: 2rem;
   align-items: center;
   justify-content: center;
+}
+.tab-2-content-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
