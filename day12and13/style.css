@@ -294,6 +294,7 @@ table tbody tr td:first-child {
 .footer li {
   line-height: 1.9;
 }
+
 /*media Queries*/
 @media (max-width: 960px) {
   .showcase {
@@ -302,7 +303,7 @@ table tbody tr td:first-child {
   .hide-sm {
     display: none;
   }
-  .showcase-top {
+  .showcase-top img {
     top: 30%;
     left: 5%;
     transform: translate(0);
@@ -320,7 +321,7 @@ table tbody tr td:first-child {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .btn-xl {
+  .btn-rounded {
     font-size: 1.5rem;
     padding: 1.4rem 2rem;
     text-transform: uppercase;
@@ -330,12 +331,12 @@ table tbody tr td:first-child {
     font-size: 1.5rem;
   }
 
-  .text-lg {
+  .text-large {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 
-  .text-md {
+  .text-medium {
     margin-bottom: 1rem;
     font-size: 1.2rem;
   }
@@ -343,17 +344,14 @@ table tbody tr td:first-child {
 
 @media (max-width: 700px) {
   .showcase::after {
-    background: rgba(0, 0, 0, 0.6);
     box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
   }
 
-  .showcase-content h1 {
-    font-size: 2.5rem;
-    line-height: 1;
-  }
-
-  .showcase-content p {
-    font-size: 1rem;
+  .container {
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0.1rem;
   }
 
   #tab-1-content .tab-1-content-inner {
@@ -374,15 +372,12 @@ table tbody tr td:first-child {
     text-align: center;
   }
 
-  .btn-xl {
+  .btn-large {
     font-size: 1rem;
     padding: 1.2rem 1.6rem;
     text-transform: uppercase;
   }
-}
-
-@media (max-height: 600px) {
-  .showcase-content {
-    margin-top: 3rem;
+  .tab-item > i {
+    font-size: 1.3rem;
   }
 }
