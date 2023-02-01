@@ -1,6 +1,4 @@
-### Challenge: Build A Netflix Landing Page Clone. - Live Site URL: [Netlify](
-    
-)
+### Challenge: Build A Netflix Landing Page Clone. - Live Site URL: [Click here to check it out!](https://netflix-thegirlcoder.netlify.app/)
 
 
 - ## Table of contents
@@ -18,7 +16,7 @@
 ### The challenge
  Build A Netflix Landing Page Clone
 
-This challenge is meant to test my html, Css Grid, Flex, overlays, shadows and Javascript skill.
+This challenge is meant to test my html, Css Grid, Flex, overlays, shadows and Javascript skills.
 
 
 
