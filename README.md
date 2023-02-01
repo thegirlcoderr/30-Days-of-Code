@@ -11,4 +11,4 @@ Here is a couple of live previews of projects I'm working on.
 
 * [Emoji-fighter](https://pick-your-emoji-fighter.netlify.app/)
 
-
+*[Netflix-landing-page](https://netflix-thegirlcoder.netlify.app/)
