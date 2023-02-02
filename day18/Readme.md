@@ -15,7 +15,7 @@
 
 ### The challenge
  Build A SpaceX Website Clone
-
+  Re-creating parts of the SpaceX website including the homepage, menus, and some inner pages. I will also create some animations and use JavaScript to manipulate the DOM
 
 
 
