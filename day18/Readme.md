@@ -5,6 +5,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Duration](#duration)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -14,8 +15,12 @@
 ## Overview
 
 ### The challenge
+
   Build A SpaceX Website Clone
   Re-creating parts of the SpaceX website including the homepage, menus, and some inner pages. I will also create some animations and use JavaScript to manipulate the DOM
+  
+ ### Duration
+  This project was started on the 18th day of my 30 days of code and was completed on 
 
 
 
