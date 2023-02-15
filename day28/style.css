@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  padding: 32px;
+  background: #f7efed;
+}
+.navbar {
+  height: 4rem;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link ul {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-link ul li {
+  margin: 0 1rem;
+  margin-top: 0.15rem;
+  padding-bottom: 2px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 4rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+input {
+  width: 100%;
+  border-radius: 26px;
+  border: 1px solid #ada9a9;
+  padding: 16px 30px;
+  margin: 8px;
+  /* background-color: #000; */
+  color: white;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/3917/3917754.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 12px;
+  background-size: 16px;
+}
