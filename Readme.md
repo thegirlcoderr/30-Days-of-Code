@@ -5,14 +5,10 @@ In this challenge, I will be submitting little to medium size projects. I'm doin
 Here is a couple of live previews of projects I'm working on.
 
 
-
-* [SpaceX- website](https://spacex-thegirlcoder.netlify.app/)
+* [Passenger-counting-app](https://passenger-counting-app.netlify.app/)
 
 * [Basketball-scoreboard](https://basketballgame-scoreboard.netlify.app/)
 
-* [Netflix-landing-page](https://netflix-thegirlcoder.netlify.app/)
-
 * [Emoji-fighter](https://pick-your-emoji-fighter.netlify.app/)
 
-* [Passenger-counting-app](https://passenger-counting-app.netlify.app/)
-
+* [Netflix-landing-page](https://netflix-thegirlcoder.netlify.app/)
