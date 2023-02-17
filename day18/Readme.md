@@ -32,10 +32,10 @@
 
 ### What I learned
 
-- 
-- 
-- 
-- 
+- DOM manipulation 
+- Animations
+- How to Translate property
+-  How to create Hamburger menu
 
 
 ### Acknowledgment
